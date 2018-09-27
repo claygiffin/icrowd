@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Favicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,144 L0,80 L16,64 L16,128 L80,128 L80,184 L144,184 L128,200 L64,200 L64,144 L0,144 Z M80,0 L80,64 L64,64 L64,16 L80,0 Z" id="path-1"></path>
+        <path d="M64,144 L0.0869460151,144 L0,80 L16,64 L16,128 L80,128 L80,184 L144,184 L128,200 L64,200 L64,144 Z M80,0 L80,16 L64,16 L80,0 Z" id="path-3"></path>
+        <path d="M0,144 L0,80 L16,64 L16,128 L80,128 L80,184 L144,184 L128,200 L64,200 L64,144 L0,144 Z M80,0 L80,40 L64.0901662,40 L64.0901662,16 L80,0 Z" id="path-5"></path>
+    </defs>
+    <g id="Favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Yellow" transform="translate(80.000000, 8.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FCB833" xlink:href="#path-1"></use>
+            <polygon id="Fill-22" fill="#E99619" mask="url(#mask-2)" points="80 184 64 200 128 200 144 184"></polygon>
+            <polygon id="Fill-25" fill="#E99619" mask="url(#mask-2)" points="16 128 0 144 64 144 80 128"></polygon>
+        </g>
+        <g id="Orange" transform="translate(32.000000, 56.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask" fill="#F26F21" xlink:href="#path-3"></use>
+            <polygon id="Fill-20" fill="#C45A1D" mask="url(#mask-4)" points="64 200 128 200 144 184 80 184"></polygon>
+            <polygon id="Fill-23" fill="#C45A1D" mask="url(#mask-4)" points="16 128 0 144 64 144 80 128.040054"></polygon>
+        </g>
+        <g id="Teal" transform="translate(56.000000, 32.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="Mask" fill="#29AFBE" xlink:href="#path-5"></use>
+            <polygon id="Fill-21" fill="#0093A5" mask="url(#mask-6)" points="64 200 128 200 144 184 80 184"></polygon>
+            <polygon id="Fill-24" fill="#0093A5" mask="url(#mask-6)" points="80 128 16 128 0 144 64 144"></polygon>
+        </g>
+    </g>
+</svg>

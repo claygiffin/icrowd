@@ -1,0 +1,242 @@
+@import "./_normalize.scss";
+@import "./_prefixes.scss";
+@import url("https://use.typekit.net/kou4zqc.css");
+
+$dl: 1800;
+$dt: 1440;
+$ds: 1080;
+$tb: 768;
+$mb: 480;
+
+$blue: #0E4163;
+$darkBlue: #022D49;
+$yellow: #FCB833;
+
+%brandonStack {
+  font-family: 'brandon-grotesque', sans-serif;
+}
+
+%aktivStack {
+  font-family: 'aktiv-grotesk', sans-serif;
+}
+
+%fontSize {
+  font-size: 12px;
+}
+
+%col-8 {
+  width: 66.67%;
+  @media screen and (max-width: $ds * 1px) {
+    width: 100%;
+  }
+}
+
+html {
+  @extend %fontSize;
+}
+
+h2 {
+  @extend %brandonStack;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 3rem;
+  margin: 0 0 .333em;
+  color: #444;
+}
+
+h3 {
+  @extend h2;
+  font-size: 2rem;
+}
+
+h6 {
+  @extend %aktivStack;
+  font-size: 1.1667rem;
+  font-weight: 400;
+  margin: .5em 0;
+}
+
+p {
+  @extend %aktivStack;
+  color: #777;
+  font-size: 1.333rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.lede {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1em;
+  line-height: 1.5;
+  color: #5D5D5D;
+  text-align: center;
+}
+
+section,
+footer {
+  width: 100%;
+  padding: 5vw;
+  @include flexbox;
+  @include flex-direction(column);
+  @include align-items(center);
+  position: relative;
+}
+
+.parallax-bg {
+  clip-path: inset(0 0 0 0);
+  background-attachment: fixed;
+}
+
+#hero {
+  background-image: url(../assets/hero_background.jpg);
+  text-align: center;
+  padding-top: 6.25vw;
+  padding-bottom: 7.5vw;
+  .text {
+    @extend %col-8;
+    h2 {
+      color: white;
+    }
+    .lede {
+      color: rgba(white, .85);
+    }
+  }
+  .site-logo {
+    width: 40rem;
+    margin-bottom: 5rem;
+    img {
+      width: 100%;
+      height: auto;
+      padding-right: 12.5%;
+    }
+  }
+}
+
+#services {
+  @include flex-direction(row);
+  @include align-items(stretch);
+  @include justify-content(stretch);
+  padding-top: 0;
+  .service {
+    @include flexbox;
+    @include flex-direction(column);
+    @include align-items(center);
+    box-sizing: content-box;
+    width: 100%;
+    .icon {
+      @include flexbox;
+      width: 10rem;
+      margin-top: -5rem;
+      margin-bottom: 2rem;
+    }
+    .icon-wrap, .text {
+      padding: 0 2.5vw;
+    }
+    .text {
+      @include flex(1);
+      width: 100%;
+      border-right: 1px solid rgba(black, .1);
+      h3 {
+        text-align: center;
+        margin: 0 0 1rem;
+      }
+      p {
+        margin: 0 0 1rem;
+      }
+    }
+    &:first-child{
+      .text,
+      .icon-wrap {
+        padding-left: 0;
+      }
+    } 
+    &:last-child {
+      .text,
+      .icon-wrap {
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+  }
+}
+
+#clients {
+  background-color: #F2F2F2;
+  padding-bottom: 3.75vw;
+  .lede {
+    width: 75%;
+  }
+  .client-list {
+    width: 100%;
+    @include flexbox;
+    .client-logo {
+      @include flex(1);
+      padding: 0 .8333vw;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &:before {
+    content: '';
+    display: block;
+    background-image: url(../assets/color-bar.svg);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: .75rem;
+    background-repeat-y: no-repeat;
+    background-size: contain;
+  }
+}
+
+#contact {
+  background-color: $blue;
+  background-image: url(../assets/gradient-texture.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: white;
+  padding-bottom: 6.125vw;
+  padding-top: 6.125vw;
+  h2 {
+    color: white;
+  }
+  .lede {
+    color: rgba(white, .75);
+    a {
+      color: #FCB833;
+      font-weight: 600;
+      display: inline-block;
+      text-decoration: none;
+      border-bottom: 2px solid $yellow;
+      margin: 0 .125em;
+      line-height: 1.25;
+    }
+  }
+}
+
+footer {
+  background-color: $darkBlue;
+  padding: 2.5vw 5vw;
+  .site-logo {
+    width: 12rem;
+    margin-bottom: 0;
+    img {
+      width: 100%;
+      height: auto;
+      padding-right: 12.5%;
+    }
+  }
+  h6 {
+    color: rgba(white, .75);
+  }
+}

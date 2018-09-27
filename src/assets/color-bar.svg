@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="9px" viewBox="0 0 305 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>color-bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 305 0 305 9 0 9"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color-bar">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" transform="translate(152.500000, 4.500000) scale(1, -1) translate(-152.500000, -4.500000) " xlink:href="#path-1"></use>
+            <g id="Stacked-Group-2" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(156.766288, 4.766288) rotate(45.000000) translate(-156.766288, -4.766288) translate(30.766288, -110.733712)" id="Rectangle">
+                    <rect fill="#F26F21" x="36" y="0" width="36" height="231"></rect>
+                    <rect fill="#C45A1D" x="144" y="0" width="36" height="231"></rect>
+                    <rect fill="#29AFBE" x="108" y="0" width="36" height="231"></rect>
+                    <rect fill="#0093A5" x="0" y="0" width="36" height="231"></rect>
+                    <rect fill="#0093A5" x="216" y="0" width="36" height="231"></rect>
+                    <rect fill="#FCB833" x="72" y="0" width="36" height="231"></rect>
+                    <rect fill="#E99619" x="180" y="0" width="36" height="231"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

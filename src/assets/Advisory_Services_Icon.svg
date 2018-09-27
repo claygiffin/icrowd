@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Advisory_Services_Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="72" cy="72" r="72"></circle>
+        <linearGradient x1="25.8519666%" y1="29.25%" x2="72.1174569%" y2="66.6078125%" id="linearGradient-3">
+            <stop stop-color="#E99619" offset="0%"></stop>
+            <stop stop-color="#E99619" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.05078125%" y1="40.6122622%" x2="50%" y2="27.233356%" id="linearGradient-4">
+            <stop stop-color="#E99619" offset="0%"></stop>
+            <stop stop-color="#FCB833" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.05078125%" y1="40.6122622%" x2="92.041472%" y2="40.6122622%" id="linearGradient-5">
+            <stop stop-color="#E99619" offset="0%"></stop>
+            <stop stop-color="#FCB833" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Advisory_Services_Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Path-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FCB833" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <circle id="Mask" stroke="#E99619" stroke-width="5" opacity="0.347321429" fill-rule="nonzero" mask="url(#mask-2)" cx="75" cy="75" r="69.5"></circle>
+                <circle id="Mask" stroke="#FDE1A9" stroke-width="5" fill-rule="nonzero" mask="url(#mask-2)" cx="72" cy="72" r="69.5"></circle>
+                <polygon id="Rectangle-5" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" points="106 37 158 92 96 162 42 111"></polygon>
+                <polygon id="Rectangle-5" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(90.000000, 32.500000) rotate(45.000000) translate(-90.000000, -32.500000) " points="67.0190296 27.9038059 104.495689 24.368272 112.98097 39.9246212 83.9895924 40.631728"></polygon>
+                <polygon id="Rectangle-5" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(71.562500, 22.812500) rotate(45.000000) translate(-71.562500, -22.812500) " points="64.9333739 14.1504419 73.4186553 12.7362284 81.0200532 22.1053932 72.3579951 32.8887716 62.1049468 24.0499369"></polygon>
+                <rect id="Rectangle-7" fill="#FCB833" fill-rule="nonzero" mask="url(#mask-2)" x="63" y="29" width="18" height="3"></rect>
+            </g>
+            <circle id="Oval-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" cx="72" cy="21" r="8"></circle>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="3" fill="#FCB833" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="72" cy="72" r="47.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="72" cy="72" r="41"></circle>
+            <g id="Group-5" transform="translate(72.000000, 72.000000) rotate(-45.000000) translate(-72.000000, -72.000000) translate(70.000000, 36.000000)" fill="#FCB833" fill-rule="nonzero">
+                <rect id="Rectangle-6" x="0" y="0" width="4" height="4" rx="2"></rect>
+                <rect id="Rectangle-6" x="0" y="68" width="4" height="4" rx="2"></rect>
+            </g>
+            <g id="Group-4" transform="translate(72.000000, 72.000000) rotate(90.000000) translate(-72.000000, -72.000000) translate(70.000000, 35.000000)" fill="#FCB833" fill-rule="nonzero">
+                <rect id="Rectangle-6" x="0" y="8.52651283e-14" width="4" height="8" rx="2"></rect>
+                <rect id="Rectangle-6" x="0" y="66" width="4" height="8" rx="2"></rect>
+            </g>
+            <g id="Group-4" transform="translate(70.000000, 35.000000)" fill="#FCB833" fill-rule="nonzero">
+                <rect id="Rectangle-6" x="0" y="0" width="4" height="8" rx="2"></rect>
+                <rect id="Rectangle-6" x="0" y="66" width="4" height="8" rx="2"></rect>
+            </g>
+            <g id="Group-3" transform="translate(72.000000, 72.500000) rotate(-45.000000) translate(-72.000000, -72.500000) translate(34.500000, 61.500000)" fill-rule="nonzero">
+                <path d="M37.9106147,1.56473474 L2.12163051,11 L37.9282307,20.4399095 C38.0608891,20.410776 38.2337776,20.3706371 38.4413266,20.3207783 C38.9229589,20.2050774 39.5751795,20.0409376 40.3114891,19.8508347 C40.8374191,19.7150482 41.4605573,19.5506057 41.9675405,19.4162968 L41.3437686,2.57445512 C40.2550711,2.24110184 39.3955329,1.98348914 38.7665744,1.80200561 C38.3973241,1.69545987 38.1106146,1.61606077 37.9106147,1.56473474 Z M37.7178206,20.4830504 C37.7160986,20.4833248 37.7143647,20.4836013 37.7126186,20.4838799 C37.7173243,20.483129 37.7234307,20.4820729 37.730838,20.4807241 Z M37.6934782,1.51292719 C37.6929296,1.51282058 37.6923912,1.51271667 37.691863,1.51261547 C37.6914623,1.5126029 37.6911526,1.51259318 37.6915134,1.51266284 Z" id="Rectangle-8" stroke="#FCB833" stroke-width="3" fill="#FFFFFF"></path>
+                <path d="M38.2195558,0.033528507 L74.2732586,10.0057966 C74.7931142,10.149586 75.1041669,10.7112141 74.9680143,11.2602281 C74.8789433,11.6193926 74.6133478,11.8998852 74.2732586,11.9939521 L38.2195558,21.9662202 C37.6997002,22.1100096 37.1679004,21.7815101 37.0317478,21.2324962 C37.0106696,21.1475018 37,21.0600035 37,20.9721425 L37,1.02760625 C37,0.460074987 37.4356402,1.14087211e-16 37.9730296,0 C38.0562243,0 38.1390755,0.0112680837 38.2195558,0.033528507 Z" id="Rectangle-8" fill="#FCB833"></path>
+                <circle id="Oval-2" stroke="#E99619" stroke-width="5.5" fill="#FFFFFF" cx="37" cy="11" r="5.25"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
