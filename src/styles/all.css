@@ -688,6 +688,13 @@ footer {
   border-bottom: 2px solid #FCB833;
   margin: 0 .125em;
   line-height: 1.25;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#contact .lede a:hover {
+  color: #fdd27e;
+  border-color: #fdd27e;
 }
 
 footer {

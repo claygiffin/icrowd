@@ -221,13 +221,18 @@ footer {
   .lede {
     color: rgba(white, .75);
     a {
-      color: #FCB833;
+      color: $yellow;
       font-weight: 600;
       display: inline-block;
       text-decoration: none;
       border-bottom: 2px solid $yellow;
       margin: 0 .125em;
       line-height: 1.25;
+      @include transition(all .3s ease);
+    }
+    a:hover {
+      color: lighten($yellow, 15);
+      border-color: lighten($yellow, 15);
     }
   }
 }
