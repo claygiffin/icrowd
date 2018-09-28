@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import Parallax from './Parallax';
+import Hero from './Hero';
 
 import siteLogo from '../assets/icrowd_logo_knockout.svg';
 import siteLogoNoTag from '../assets/icrowd_logo_knockout_no_tag.svg';
@@ -13,13 +13,15 @@ import Tough_Mudder from '../assets/Tough_Mudder.png';
 import David_Blaine from '../assets/David_Blaine.png';
 import Virgin_Sport from '../assets/Virgin_Sport.png';
 import Americas_Cup from '../assets/Americas_Cup.png';
+import heroMp4 from '../assets/icrowd-background.mp4';
+import heroWebM from '../assets/icrowd-background.webm';
 
 export default class App extends React.Component {
   render(){
     return(
       <div className="App">
         <Helmet title="icrowd" />
-        <Parallax id="hero" >
+        <Hero videoMp4={heroMp4} videoWebM={heroWebM} >
           <div className="site-logo">
             <img src={siteLogo} alt="ICROWD Intelligent Crowd Solutions" />
           </div>
@@ -27,7 +29,7 @@ export default class App extends React.Component {
             <h2>On the ground, under control.</h2>
             <p className="lede">We transform unpredictable events into well-managed experiences  through planning, technology, and innovative thinking.</p>
           </div>
-        </Parallax>
+        </Hero>
         <section id="services">
           <div className="service">
             <div className="icon-wrap"><img className="icon" src={advisoryIcon} alt="Advisory Services Icon" /></div>

@@ -487,17 +487,31 @@ footer {
   position: relative;
 }
 
-.parallax-bg {
-  -webkit-clip-path: inset(0 0 0 0);
-          clip-path: inset(0 0 0 0);
-  background-attachment: fixed;
-}
-
 #hero {
-  background-image: url(../assets/hero_background.jpg);
+  -webkit-clip-path: inset(0 0 0 0);
+  -moz-clip-path: inset(0 0 0 0);
+  -ms-clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
   text-align: center;
   padding-top: 6.25vw;
-  padding-bottom: 7.5vw;
+  padding-bottom: 8.75vw;
+  background-image: #022D49;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#022D49), to(#0E4163));
+  background-image: linear-gradient(to top right, #022D49, #0E4163);
+}
+
+#hero #hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
 }
 
 #hero .text h2, #hero .text h3 {

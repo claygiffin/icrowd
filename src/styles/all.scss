@@ -84,16 +84,24 @@ footer {
   position: relative;
 }
 
-.parallax-bg {
-  clip-path: inset(0 0 0 0);
-  background-attachment: fixed;
-}
-
 #hero {
-  background-image: url(../assets/hero_background.jpg);
+  @include clip-path(inset(0 0 0 0));
   text-align: center;
   padding-top: 6.25vw;
-  padding-bottom: 7.5vw;
+  padding-bottom: 8.75vw;
+  @include linear-gradient(to top right, $darkBlue, $blue);
+  #hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+  }
   .text {
     @extend %col-8;
     h2 {
