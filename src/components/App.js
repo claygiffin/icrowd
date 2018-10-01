@@ -27,7 +27,7 @@ export default class App extends React.Component {
           </div>
           <div className="text" >
             <h2>On the ground, under control.</h2>
-            <p className="lede">We transform unpredictable events into well-managed experiences  through planning, technology, and innovative thinking.</p>
+            <p className="lede">We transform unpredictable events into well-managed experiences through planning, technology, and innovative thinking.</p>
           </div>
         </Hero>
         <section id="services">
