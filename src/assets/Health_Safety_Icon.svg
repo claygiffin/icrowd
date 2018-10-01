@@ -5,9 +5,9 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <circle id="path-1" cx="72" cy="72" r="72"></circle>
-        <linearGradient x1="7.76006821%" y1="19.2488531%" x2="59.8239466%" y2="62.0512222%" id="linearGradient-3">
-            <stop stop-color="#C45A1D" offset="0%"></stop>
-            <stop stop-color="#C45A1D" stop-opacity="0" offset="100%"></stop>
+        <linearGradient x1="7.76006821%" y1="19.2488531%" x2="58.5120045%" y2="60.9726582%" id="linearGradient-3">
+            <stop stop-color="#0093A5" offset="0%"></stop>
+            <stop stop-color="#0093A5" stop-opacity="0" offset="100%"></stop>
         </linearGradient>
         <path d="M43,74.2086334 C42.1681548,74.2086334 41.4642857,73.9215834 40.8883929,73.3474836 L10.9419643,44.5468072 C10.6220238,44.2916517 10.1821057,43.877024 9.62220982,43.3029241 C9.06231399,42.7288243 8.17447917,41.6842814 6.95870536,40.1692957 C5.74293155,38.65431 4.65513393,37.0994562 3.6953125,35.5047343 C2.73549107,33.9100125 1.8796503,31.9803991 1.12779018,29.715894 C0.37593006,27.451389 2.27373675e-13,25.2506729 2.27373675e-13,23.1137456 C2.27373675e-13,16.0969695 2.03162202,10.6111264 6.09486607,6.65621624 C10.1581101,2.70130607 15.7730655,0.723850992 22.9397321,0.723850992 C24.9233631,0.723850992 26.9469866,1.06671619 29.0106027,1.75244658 C31.0742188,2.43817697 32.9938616,3.36311564 34.7695313,4.52726258 C36.5452009,5.69140952 38.0729167,6.78379398 39.3526786,7.80441596 C40.6324405,8.82503794 41.8482143,9.90944879 43,11.0576485 C44.1517857,9.90944879 45.3675595,8.82503794 46.6473214,7.80441596 C47.9270833,6.78379398 49.4547991,5.69140952 51.2304688,4.52726258 C53.0061384,3.36311564 54.9257813,2.43817697 56.9893973,1.75244658 C59.0530134,1.06671619 61.0766369,0.723850992 63.0602679,0.723850992 C70.2269345,0.723850992 75.8418899,2.70130607 79.9051339,6.65621624 C83.968378,10.6111264 86,16.0969695 86,23.1137456 C86,30.1624162 82.3366815,37.3386644 75.0100446,44.6424905 L45.1116071,73.3474836 C44.5357143,73.9215834 43.8318452,74.2086334 43,74.2086334 Z" id="path-4"></path>
     </defs>
@@ -17,9 +17,9 @@
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Mask" fill="#F26F21" fill-rule="nonzero" xlink:href="#path-1"></use>
-                <circle id="Mask" stroke="#C45A1D" stroke-width="5" opacity="0.347321429" fill-rule="nonzero" mask="url(#mask-2)" cx="75" cy="75" r="69.5"></circle>
-                <circle id="Mask" stroke="#F6A16F" stroke-width="5" fill-rule="nonzero" mask="url(#mask-2)" cx="72" cy="72" r="69.5"></circle>
+                <use id="Mask" fill="#29AFBE" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <circle id="Mask" stroke="#0093A5" stroke-width="5" opacity="0.347321429" fill-rule="nonzero" mask="url(#mask-2)" cx="75" cy="75" r="69.5"></circle>
+                <circle id="Mask" stroke="#74CBD4" stroke-width="5" fill-rule="nonzero" mask="url(#mask-2)" cx="72" cy="72" r="69.5"></circle>
                 <polygon id="Rectangle-5" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" points="111 49 168.38961 106.38961 115.433766 159.345454 63.4779221 107.38961"></polygon>
             </g>
             <g id="Heart_font_awesome" transform="translate(29.000000, 40.000000)">
@@ -28,7 +28,7 @@
                         <use xlink:href="#path-4"></use>
                     </mask>
                     <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-4"></use>
-                    <polyline id="Path-2" stroke="#F26F21" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" mask="url(#mask-5)" points="-2 40 16 40 22 15 35 51 43 24 50 40 82 40"></polyline>
+                    <polyline id="Path-2" stroke="#29AFBE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" mask="url(#mask-5)" points="-2 40 16 40 22 15 35 51 43 24 50 40 82 40"></polyline>
                 </g>
             </g>
         </g>
