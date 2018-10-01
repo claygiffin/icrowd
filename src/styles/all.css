@@ -419,7 +419,25 @@ h6, p {
 }
 
 html {
-  font-size: 12px;
+  font-size: 0.83333vw;
+}
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 1.08333vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 1.48438vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 2.25vw;
+  }
 }
 
 #hero .text {
@@ -451,11 +469,23 @@ h6 {
   margin: .5em 0;
 }
 
+@media screen and (max-width: 768px) {
+  h6 {
+    font-size: 1.333rem;
+  }
+}
+
 p {
   color: #777;
   font-size: 1.333rem;
   line-height: 1.5;
   font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 1.5rem;
+  }
 }
 
 .lede {
@@ -470,7 +500,7 @@ p {
 section,
 footer {
   width: 100%;
-  padding: 5vw;
+  padding: 6rem 5vw;
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -493,8 +523,9 @@ footer {
   -ms-clip-path: inset(0 0 0 0);
   clip-path: inset(0 0 0 0);
   text-align: center;
-  padding-top: 6.25vw;
-  padding-bottom: 8.75vw;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+  overflow: hidden;
   background-image: #022D49;
   background-image: -webkit-gradient(linear, left bottom, right top, from(#022D49), to(#0E4163));
   background-image: linear-gradient(to top right, #022D49, #0E4163);
@@ -502,15 +533,15 @@ footer {
 
 #hero #hero-video {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
   background-size: cover;
 }
 
@@ -523,7 +554,7 @@ footer {
 }
 
 #hero .site-logo {
-  width: 40rem;
+  width: 36rem;
   margin-bottom: 5rem;
 }
 
@@ -531,6 +562,12 @@ footer {
   width: 100%;
   height: auto;
   padding-right: 12.5%;
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    padding-bottom: 8rem;
+  }
 }
 
 #services {
@@ -612,9 +649,37 @@ footer {
   border-right: none;
 }
 
+@media screen and (max-width: 768px) {
+  #services {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #services .service .icon {
+    width: 8rem;
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+  }
+  #services .service .icon-wrap, #services .service .text {
+    padding: 0;
+  }
+  #services .service .text {
+    border-right: none;
+  }
+  #services .service:not(:first-child) {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  #services .service:not(:first-child) .icon {
+    margin-top: 2rem;
+  }
+}
+
 #clients {
   background-color: #F2F2F2;
-  padding-bottom: 3.75vw;
+  padding-bottom: 4rem;
 }
 
 #clients .lede {
@@ -627,6 +692,10 @@ footer {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  justify-content: center;
 }
 
 #clients .client-list .client-logo {
@@ -661,6 +730,24 @@ footer {
   background-size: contain;
 }
 
+@media screen and (max-width: 768px) {
+  #clients .lede {
+    width: 100%;
+  }
+  #clients .client-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #clients .client-list .client-logo {
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  #clients .client-list .client-logo img {
+    margin-bottom: -1.5rem;
+  }
+}
+
 #contact {
   background-color: #0E4163;
   background-image: url(../assets/gradient-texture.svg);
@@ -668,8 +755,8 @@ footer {
   background-repeat: no-repeat;
   background-position: 0 0;
   color: white;
-  padding-bottom: 6.125vw;
-  padding-top: 6.125vw;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
 }
 
 #contact h2, #contact h3 {
@@ -699,7 +786,7 @@ footer {
 
 footer {
   background-color: #022D49;
-  padding: 2.5vw 5vw;
+  padding: 3rem 5vw;
 }
 
 footer .site-logo {
@@ -715,5 +802,10 @@ footer .site-logo img {
 
 footer h6 {
   color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+footer h6 span {
+  display: inline-block;
 }
 /*# sourceMappingURL=all.css.map */

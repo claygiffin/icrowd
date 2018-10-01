@@ -72,7 +72,7 @@ export default class App extends React.Component {
           <div className="site-logo" >
             <img src={siteLogoNoTag} alt="icrowd: Intelligent Crowd Solutions" />
           </div>
-          <h6>336 West 37th Street, Suite 400&nbsp;&nbsp;•&nbsp;&nbsp;New York, NY 10018&nbsp;&nbsp;•&nbsp;&nbsp;(212) 401-4000</h6>
+          <h6><span>336 West 37th Street, Suite 400</span>&nbsp;&nbsp;•&nbsp;&nbsp;<span>New York, NY 10018</span>&nbsp;&nbsp;•&nbsp;&nbsp;<span>(212) 401-4000</span></h6>
         </footer>
       </div>
     )
