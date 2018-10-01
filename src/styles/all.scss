@@ -244,7 +244,7 @@ footer {
     width: 100%;
     top: 0;
     height: .75rem;
-    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
     background-position: center;
   }
   @media screen and (max-width: $tb * 1px) {
