@@ -239,13 +239,13 @@ footer {
   &:before {
     content: '';
     display: block;
-    background-image: url(../assets/color-bar.svg);
+    background-image: url(../assets/icrowd-color-bar.svg);
     position: absolute;
     width: 100%;
     top: 0;
     height: .75rem;
     background-repeat-y: no-repeat;
-    background-size: contain;
+    background-position: center;
   }
   @media screen and (max-width: $tb * 1px) {
     .lede {
@@ -286,6 +286,7 @@ footer {
       border-bottom: 2px solid $yellow;
       margin: 0 .125em;
       line-height: 1.25;
+      letter-spacing: .025em;
       @include transition(all .3s ease);
     }
     a:hover {

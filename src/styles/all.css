@@ -721,13 +721,13 @@ footer {
 #clients:before {
   content: '';
   display: block;
-  background-image: url(../assets/color-bar.svg);
+  background-image: url(../assets/icrowd-color-bar.svg);
   position: absolute;
   width: 100%;
   top: 0;
   height: .75rem;
   background-repeat-y: no-repeat;
-  background-size: contain;
+  background-position: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -775,6 +775,7 @@ footer {
   border-bottom: 2px solid #FCB833;
   margin: 0 .125em;
   line-height: 1.25;
+  letter-spacing: .025em;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="21px" viewBox="0 0 305 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>color-bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color-bar" fill-rule="nonzero">
+            <path d="M13.2533547,21 L0,21 L0,7.10542736e-15 L34.2533547,7.10542736e-15 L13.2533547,21 Z M288.811796,0 L305,0 L305,21 L267.811796,21 L288.811796,0 Z" id="Combined-Shape" fill="#0093A5"></path>
+            <polygon id="Combined-Shape" fill="#F26F21" points="34.2533547 0 85.1650429 0 64.1650429 21 13.2533547 21"></polygon>
+            <polygon id="Combined-Shape" fill="#C45A1D" points="237.900108 0 216.900108 21 165.988419 21 186.988419 2.84217094e-14"></polygon>
+            <polygon id="Combined-Shape" fill="#29AFBE" points="186.988419 0 165.988419 21 115.076731 21 136.076731 1.42108547e-14"></polygon>
+            <polygon id="Combined-Shape" fill="#FCB833" points="85.1650429 0 136.076731 0 115.076731 21 64.1650429 21"></polygon>
+            <polygon id="Combined-Shape" fill="#E99619" points="288.811796 0 267.811796 21 216.900108 21 237.900108 1.24344979e-14"></polygon>
+        </g>
+    </g>
+</svg>
