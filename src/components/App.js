@@ -66,7 +66,7 @@ export default class App extends React.Component {
         </section>
         <section id="contact" >
           <h2>Work With Us</h2>
-          <p className="lede" >If you’re ready to talk or have a question, <a href="mailto:johndoe@example.com" target="_blank" rel="noopener noreferrer">contact us</a> now.</p>
+          <p className="lede" >If you’re ready to talk or have a question, <a href="mailto:snugent@icrowd.com" target="_blank" rel="noopener noreferrer">contact us</a> now.</p>
         </section>
         <footer>
           <div className="site-logo" >
