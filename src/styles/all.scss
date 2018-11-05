@@ -72,11 +72,11 @@ h6 {
 p {
   @extend %aktivStack;
   color: #777;
-  font-size: 1.333rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 400;
   @media screen and (max-width: $tb * 1px) {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
