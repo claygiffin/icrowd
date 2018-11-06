@@ -52,11 +52,17 @@ h2 {
   font-size: 3rem;
   margin: 0 0 .333em;
   color: #444;
+  @media screen and (max-width: $ds * 1px) {
+    font-size: 30px;
+  }
 }
 
 h3 {
   @extend h2;
   font-size: 2rem;
+  @media screen and (max-width: $ds * 1px) {
+    font-size: 21px;
+  }
 }
 
 h6 {
@@ -64,19 +70,19 @@ h6 {
   font-size: 1.1667rem;
   font-weight: 400;
   margin: .5em 0;
-  @media screen and (max-width: $tb * 1px) {
-    font-size: 1.333rem;
+  @media screen and (max-width: $ds * 1px) {
+    font-size: 16px;
   }
 }
 
 p {
   @extend %aktivStack;
-  color: #777;
+  color: #888;
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 400;
-  @media screen and (max-width: $tb * 1px) {
-    font-size: 1.75rem;
+  @media screen and (max-width: $ds * 1px) {
+    font-size: 16px;
   }
 }
 
@@ -85,8 +91,11 @@ p {
   font-weight: 400;
   margin: 0 0 1em;
   line-height: 1.5;
-  color: #5D5D5D;
+  color: #777;
   text-align: center;
+  @media screen and (max-width: $ds * 1px) {
+    font-size: 21px;
+  }
 }
 
 section,
